@@ -1,0 +1,127 @@
+.text__color-white {
+    color: #FFF; 
+}
+ 
+.uppercase {
+    text-transform: uppercase;
+}
+
+.button__theme-dark {
+    background-color: #212A2F;
+    color: #FFF;
+}
+
+.section__heading {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.92px;
+}
+
+.ul__row {
+  display: flex;
+}
+
+.ul__column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* * Card template START */
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.04px;
+}
+
+.card__description { 
+    line-height: 24px;
+}
+/* * Card template END */
+
+/* Header START */
+.header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 11px 34px 11px 27px;
+}
+
+.header__product-menu-list {
+  gap: 36px; 
+}
+
+.header__logo {
+  margin: auto;
+}
+
+.header__right-zone {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.header__info-menu-list {
+  gap: 39px;
+}
+
+.header__button-menu-list {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+  margin-left: 18px;
+}
+/* Header END */
+
+/* Cover START */
+.cover {
+  display: flex;
+  background-image: url(/images/section__background-images/cover-section.svg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  align-items : end;
+  height: 94vh;
+}
+
+.cover__info {
+
+  padding: 0 0 8vh 4vw;
+}
+
+.cover__heading {
+  font-size: 48px;
+  line-height: 62.88px;
+  margin-bottom: 11px;
+}
+
+.cover__description {
+  line-height: 24px;
+}
+
+.cover__button-menu-list {
+  column-gap: 24px;
+}
+
+.cover__button-menu-list-button {
+  padding: 16px 45px;
+  margin-top: 24px;
+  background-color: white;
+  color: #212A2F;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+/* Cover END */
+/* ! Image uploading failed */
+.header__logo:before {
+  content: 'Allbirds';
+  font-size: 32px;
+  font-weight: 700;
+}
+
+/* ! Image uploading failed */
