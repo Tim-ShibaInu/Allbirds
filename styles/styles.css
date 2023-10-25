@@ -81,7 +81,7 @@
 /* Cover START */
 .cover {
   display: flex;
-  background-image: url(/images/section__background-images/cover-section.svg);
+  background-image: url(images/section__background-images/cover-section.svg);
   background-repeat: no-repeat; 
   background-size: cover;
   align-items : end;
