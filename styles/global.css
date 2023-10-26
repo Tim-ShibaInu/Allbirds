@@ -33,6 +33,11 @@ button, img {
   user-select: none;
 }
   
+button {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 img {
   display: block;
 }
